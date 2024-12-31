@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    text-align: center;
+    padding: 15px 20px 30px 20px;
+    background: #1c1c1c;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+#scroll-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background: #6943ff;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#scroll-to-top-btn:hover {
+    background: #7c5cff;
+}
+
+#elements-container {
+    max-width: 650px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#input-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #6943ff;
+    padding: 20px 30px 20px 30px;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 8px;
+}
+
+#input-section p {
+    font-size: 18px;
+    width: 80%;
+}
+
+#input-container {
+    border: 2px solid #b295ff;
+    border-radius: 5px;
+    background: transparent;
+    width: 30%;
+    min-width: 130px;
+    margin: 20px;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+    width: 100%;
+    min-width: 130px;
+    margin: 0;
+}
+
+input::placeholder {
+    color: #b295ff;
+}
+
+button {
+    background: #fff;
+    color: #3d3d3d;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 12px 40px;
+    font-weight: 600;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    background: #e8e8e8;
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+p {
+    line-height: 1.6;
+}
+
+span {
+    background: #e8e8e8;
+    padding: 1px 15px;
+    margin: 0 6px;
+    border: none;
+    border-radius: 3px;
+    color: #212121;
+    font-weight: 700;
+}
+
+.divider-line {
+    padding: 0;
+    margin: auto 20px;
+    background: #c4c4c4;
+    width: 5px;
+    height: 25px;
+    border-radius: 2px;
+}
+
+#conversions-section {
+    padding: 20px 25px 50px 25px;
+    background: #f4f4f4;
+    color: #5a537b;
+    border-radius: 0 0 5px 5px;
+}
+
+.conversion {
+    background: #fff;
+    padding: 25px 10px;
+    margin: 20px 8px;
+    border-radius: 5px;
+}
+
+.measurements-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#conversions-section p {
+    color: #353535;
+}
