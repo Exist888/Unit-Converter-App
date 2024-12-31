@@ -13,7 +13,7 @@
 - Automatic scrolling on button click to make it easier on the user to see conversion results
 - innerHTML to interpolate conversion results, render onto page, and minimize DOM usage for faster performance
 - Invoking JavaScript functions with "onclick" html button attribute and event listeners
-- Conrolling decimal length of results with .toFixed() method
+- Controlling decimal length of results with .toFixed() method
 - Resetting input value at appropriate points to make it easier for user to enter new values
 - Translating Figma design file into CSS code to mirror given visual design
 <br/> <br/>
