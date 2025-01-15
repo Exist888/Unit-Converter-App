@@ -7,10 +7,8 @@
         <meta name="viewport" content="width=device-width, inital-scale=1.0">
     </head>
     <body>
-        <button onclick="scrollToTop()" id="scroll-to-top-btn">
-            <img src="arrow.png" alt="clickable arrow"></button>
-        <div id="elements-container">
-            <div id="input-section">
+        <main id="elements-container">
+            <section id="input-section">
                 <h1>Metric/Imperial Unit Conversion</h1>
                 <p>
                     Simply enter a number. You'll instantly get Length, Volume, and Mass conversions. Metric to imperial and vice versa.
@@ -19,8 +17,8 @@
                     <input id="input-el" placeholder="20" autofocus>
                 </div>
                 <button id="button-el">Convert</button>
-            </div>
-            <div id="conversions-section">
+            </section>
+            <section id="conversions-section">
                 <div class="conversion">
                     <h2>Length (Meter/Feet)</h2>
                     <div class="measurements-container" id="length-container">
@@ -51,8 +49,10 @@
                         </p>
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
+            <button onclick="scrollToTop()" id="scroll-to-top-btn">
+                <img src="arrow.png" alt="clickable arrow"></button>
+        </main>
         <script src="index.js"></script>
     </body>
 </html>
