@@ -1,7 +1,6 @@
 # __Unit Converter App__
 Coded from scratch using and modifying designs provided by Scrimba as part of Scrimba's Frontend Web Development course.
 <br/><br/>
-- Solo Project for Frontend Web Developer Training at <a href="https://v2.scrimba.com">__Scrimba__</a><br/>
 - Effortlessly generate unit conversions from metric to imperial and vice versa
 - Languages: JavaScript, CSS, and HTML
 - Check out my app at <a href="https://unit-converter-exist888.netlify.app/">__unit-converter-exist888.netlify.app__</a>
