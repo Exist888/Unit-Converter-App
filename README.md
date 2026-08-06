@@ -8,5 +8,6 @@
 <br/>
 
 ##
-### __Thank you for checking out my work.__
-Let's connect on <a href="https://www.linkedin.com/in/filip-herbst/">__LinkedIn!__</a>
+### Let's Connect
+
+[**LinkedIn ➜ Filip Herbst**](https://www.linkedin.com/in/filip-herbst/)
